@@ -1278,4 +1278,144 @@
     )
   )
 
+
+(symbol "IR333-A_C264290"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "IR333-A_C264290"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C264290_LED-TH_BD6_2-P2_54-FD"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1808280419_Everlight-Elec-IR333-A_C264290.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "IR333-A_C264290"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C264290"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "EVERLIGHT(亿光)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "IR333-A_C264290_1_1"
+      (pin input line
+        (at -5.08 -0.0 0)
+        (length 3.81)
+        (name "A"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin input line
+        (at 5.08 -0.0 180)
+        (length 3.81)
+        (name "C"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (polyline
+        (pts
+          (xy -1.27000254000508 -1.524003048006096)
+          (xy 1.27000254000508 -0.0)
+          (xy -1.27000254000508 1.524003048006096)
+          (xy -1.27000254000508 -1.524003048006096)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 1.27000254000508 1.524003048006096)
+          (xy 1.27000254000508 -1.524003048006096)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.5080010160020321 1.7780035560071121)
+          (xy 1.27000254000508 2.54000508001016)
+          (xy 0.5080010160020321 3.048006096012192)
+          (xy 1.524003048006096 3.81000762001524)
+          (xy 1.27000254000508 3.3020066040132083)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.524003048006096 3.81000762001524)
+          (xy 1.0160020320040641 3.81000762001524)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.0160020320040641 1.7780035560071121)
+          (xy -0.25400050800101603 2.54000508001016)
+          (xy -1.0160020320040641 3.048006096012192)
+          (xy 0.0 3.81000762001524)
+          (xy -0.25400050800101603 3.3020066040132083)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.0 3.81000762001524)
+          (xy -0.5080010160020321 3.81000762001524)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+
 )

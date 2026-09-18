@@ -624,209 +624,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:IR204A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0.508 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IR204A"
-				(at -1.016 -2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Infrared LED , 3mm LED package"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "opto IR LED"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED*3.0mm*IRBlack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IR204A_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 3.175) (xy -0.127 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IR204A_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:SS8050"
 			(pin_names
 				(offset 0)
@@ -1388,6 +1185,199 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:IR333-A_C264290"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IR333-A_C264290"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C264290_LED-TH_BD6_2-P2_54-FD"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1808280419_Everlight-Elec-IR333-A_C264290.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "IR333-A_C264290"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C264290"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "EVERLIGHT(亿光)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IR333-A_C264290_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.524) (xy 1.27 0) (xy -1.27 1.524) (xy -1.27 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.778) (xy -0.254 2.54) (xy -1.016 3.048) (xy 0 3.81) (xy -0.254 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -0.508 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.778) (xy 1.27 2.54) (xy 0.508 3.048) (xy 1.524 3.81) (xy 1.27 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.524) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 3.81) (xy 1.016 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "C"
 						(effects
 							(font
 								(size 1 1)
@@ -2573,6 +2563,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 132.08) (xy 57.15 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760df5c3-8e00-40e9-bc98-3ea62a95289d")
+	)
+	(wire
+		(pts
 			(xy 133.35 81.28) (xy 138.43 81.28)
 		)
 		(stroke
@@ -3175,7 +3175,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 62.23 132.08 270)
+		(at 68.58 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3186,7 +3186,7 @@
 		(fields_autoplaced yes)
 		(uuid "1620bfd5-cc83-4dec-acdb-eb06677e489e")
 		(property "Reference" "#PWR021"
-			(at 58.42 132.08 0)
+			(at 64.77 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,7 +3197,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 66.04 132.0799 90)
+			(at 72.39 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3208,7 +3208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 132.08 0)
+			(at 68.58 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,7 +3219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 132.08 0)
+			(at 68.58 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +3230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 62.23 132.08 0)
+			(at 68.58 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,7 +3443,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 132.08 90)
+		(at 64.77 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3454,7 +3454,7 @@
 		(fields_autoplaced yes)
 		(uuid "31662644-c445-4bd4-96db-b141f50fa439")
 		(property "Reference" "R5"
-			(at 58.42 125.73 90)
+			(at 64.77 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3464,7 +3464,7 @@
 			)
 		)
 		(property "Value" "22 Om"
-			(at 58.42 128.27 90)
+			(at 64.77 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3474,7 +3474,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 58.42 133.858 90)
+			(at 64.77 133.858 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 132.08 0)
+			(at 64.77 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3496,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 132.08 0)
+			(at 64.77 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5788,8 +5788,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:IR204A")
-		(at 52.07 132.08 0)
+		(lib_id "lcsc_imported:IR333-A_C264290")
+		(at 52.07 132.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5800,7 +5800,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c021b0a-09e3-4af7-ba3e-9869a68b9e29")
 		(property "Reference" "D1"
-			(at 50.927 124.46 0)
+			(at 51.943 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5809,8 +5809,8 @@
 				)
 			)
 		)
-		(property "Value" "IR204A"
-			(at 50.927 127 0)
+		(property "Value" "IR333-A_C264290"
+			(at 51.943 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5819,8 +5819,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_IRBlack"
-			(at 52.07 127.635 0)
+		(property "Footprint" "lcsc_footprints:C264290_LED-TH_BD6_2-P2_54-FD"
+			(at 52.07 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5830,8 +5830,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
-			(at 50.8 132.08 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1808280419_Everlight-Elec-IR333-A_C264290.pdf"
+			(at 54.356 132.207 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5841,7 +5841,29 @@
 				)
 			)
 		)
-		(property "Description" "Infrared LED , 3mm LED package"
+		(property "Description" "IR333-A_C264290"
+			(at 52.07 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C264290"
+			(at 52.07 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "EVERLIGHT(亿光)"
 			(at 52.07 132.08 0)
 			(hide yes)
 			(show_name no)
