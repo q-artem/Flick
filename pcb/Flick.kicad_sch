@@ -7027,7 +7027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c72e5fd4-3156-4882-8c56-9653648ffc4a")
-		(property "Reference" "BAT-1"
+		(property "Reference" "TP7"
 			(at 194.818 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,7 +7086,7 @@
 		(instances
 			(project "Flick"
 				(path "/a688768b-2e23-46b9-a667-3b762413612a"
-					(reference "BAT-1")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7457,7 +7457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5d6194b-7ae9-4163-bd21-c95de0f60f28")
-		(property "Reference" "BAT+1"
+		(property "Reference" "TP8"
 			(at 194.818 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7516,7 +7516,7 @@
 		(instances
 			(project "Flick"
 				(path "/a688768b-2e23-46b9-a667-3b762413612a"
-					(reference "BAT+1")
+					(reference "TP8")
 					(unit 1)
 				)
 			)

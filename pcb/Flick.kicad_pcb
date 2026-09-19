@@ -4187,6 +4187,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7193,9 +7194,10 @@
 		(at 147 79.5 -25)
 		(descr "Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353")
 		(tags "Test Point")
-		(property "Reference" "BAT-1"
+		(property "Reference" "TP7"
 			(at -0.044583 -2.461811 155)
 			(layer "B.Paste")
+			(hide yes)
 			(uuid "7838ff14-ce9e-4f9e-9f0b-61ae0e49b8e6")
 			(effects
 				(font
@@ -7363,9 +7365,10 @@
 		(at 131.5 79.5 25)
 		(descr "Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353")
 		(tags "Test Point")
-		(property "Reference" "BAT+1"
+		(property "Reference" "TP8"
 			(at 0.044583 -2.461811 205)
 			(layer "B.Paste")
+			(hide yes)
 			(uuid "8576d7d0-114e-425b-bdc6-a55050c7f7a7")
 			(effects
 				(font
@@ -7548,6 +7551,32 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "1ae5b49c-d90d-45c4-b71d-e9b94ac18fc0")
+	)
+	(gr_text "+"
+		(at 130.5 77.5 25)
+		(layer "B.Paste")
+		(uuid "1e1879bf-0c83-40aa-ba86-49ce9e4a504f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "-"
+		(at 148 77.5 335)
+		(layer "B.Paste")
+		(uuid "36562a0d-5d51-4fea-b152-1f22fbbfb77c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify mirror)
+		)
 	)
 	(segment
 		(start 128.35 73.25)
@@ -7884,6 +7913,38 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "c542d709-7555-476f-85c6-1402a507280e")
+	)
+	(segment
+		(start 128.725 69.725)
+		(end 128.725 68.765)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(D1-C)")
+		(uuid "99f78794-cdc6-4a5e-9129-66ca6e73a5fa")
+	)
+	(segment
+		(start 128.725 68.765)
+		(end 128.71 68.75)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(D1-C)")
+		(uuid "bb66b3fc-0089-4291-8b16-40ae087d1e7c")
+	)
+	(segment
+		(start 129.3 70.3)
+		(end 128.725 69.725)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(D1-C)")
+		(uuid "ee7ab9f0-c436-4483-aefa-a241bfd6a0be")
+	)
+	(segment
+		(start 129.3 71.375)
+		(end 129.3 70.3)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(D1-C)")
+		(uuid "fbcd384f-d840-4004-b9be-454abb0896c8")
 	)
 	(segment
 		(start 138.1375 70.75)
@@ -9036,38 +9097,6 @@
 		(layer "B.Cu")
 		(net "Net-(R1-Pad2)")
 		(uuid "80972692-1f7d-42ce-8145-fa36ac18f682")
-	)
-	(segment
-		(start 128.725 69.725)
-		(end 128.725 68.765)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(D1-C)")
-		(uuid "99f78794-cdc6-4a5e-9129-66ca6e73a5fa")
-	)
-	(segment
-		(start 128.725 68.765)
-		(end 128.71 68.75)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(D1-C)")
-		(uuid "bb66b3fc-0089-4291-8b16-40ae087d1e7c")
-	)
-	(segment
-		(start 129.3 70.3)
-		(end 128.725 69.725)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(D1-C)")
-		(uuid "ee7ab9f0-c436-4483-aefa-a241bfd6a0be")
-	)
-	(segment
-		(start 129.3 71.375)
-		(end 129.3 70.3)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(D1-C)")
-		(uuid "fbcd384f-d840-4004-b9be-454abb0896c8")
 	)
 	(zone
 		(net "GND")
